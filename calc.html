@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="cal.js"></script>
+    </head>
+    <body bgcolor="darkcyan">
+        <link rel="stylesheet" href="style.css"/>
+        <h1>CALC 2</h1>
+        <div>
+        <button id="1" onclick="numeros+'1'">1</button>
+        <button id="2" onclick="numeros+'2'">2</button>
+        <button id="3" onclick="numeros+'3'">3</button>
+        </div><div>
+        <button id="4" onclick="numeros+'4'">4</button>
+        <button id="5" onclick="numeros+'5'">5</button>
+        <button id="6" onclick="numeros+'6'">6</button>
+    </div><div>
+        <button id="7" onclick="numeros+'7'">7</button>
+        <button id="8" onclick="numeros+'8'">8</button>
+        <button id="9" onclick="numeros+'9'">9</button>
+    </div>
+        <button id="0" onclick="numeros+'0'">0</button>
+    </div><div>
+        <button id="plus" onclick="op='+';clear()">+</button>
+        <button id="minus" onclick="op='-';clear()">-</button>
+        <button id="multiplication" onclick="op='*';clear()">*</button>
+        <button id="division" onclick="op='/';clear()">/</button></div>
+
+        <br>
+        <button onclick="fun()">Result</button>
+        <p id="result"></p>
+    </body>
+</html>
